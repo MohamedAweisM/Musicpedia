@@ -18,6 +18,7 @@ export default function Dashboard({ code }) {
     const [playingTrack, setPlayingTrack] = useState()
     const [lyrics, setLyrics] = useState("")
 
+    console.log(playingTrack)
     function chooseTrack(track) {
         setPlayingTrack(track)
         setSearch("")
